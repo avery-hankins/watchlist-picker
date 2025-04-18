@@ -1,4 +1,4 @@
-module github.com/holopollock/LetterBoxd-Watchlist-Picker-CLI
+module github.com/avery-hankins/watchlist-picker
 
 go 1.14
 
