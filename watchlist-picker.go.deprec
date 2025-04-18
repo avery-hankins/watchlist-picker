@@ -68,6 +68,7 @@ func main() {
 
 func scrape(userName string, ch chan filmSend) {
 	siteToVisit := site + "/" + userName + "/watchlist"
+	fmt.Println(siteToVisit)
 
 	ajc := colly.NewCollector(
 		colly.Async(true),
